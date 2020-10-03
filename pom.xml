@@ -45,15 +45,15 @@
   
   <distributionManagement>
 	<repository>
-		<id>deployment</id>
+		<id>nexus</id>
 		<name>Internal Releases</name>
-		<url>http://35.154.238.151:8081/repository/maven-releases/</url>
+		<url>http://192.168.81.181:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deployment</id>
+		<id>nexus</id>
 		<name>Internal Releases</name>
-		<url>http://35.154.238.151:8081/repository/maven-snapshots/</url>
+		<url>http://192.168.81.181:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
 </distributionManagement>
