@@ -14,7 +14,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.1</version>
     </dependency>
   </dependencies>
 
@@ -47,13 +47,13 @@
 	<repository>
 		<id>nexus</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.81.181:8081/repository/maven-releases/</url>
+		<url>http://192.168.81.196:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.81.181:8081/repository/maven-snapshots/</url>
+		<url>http://192.168.81.196:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
 </distributionManagement>
